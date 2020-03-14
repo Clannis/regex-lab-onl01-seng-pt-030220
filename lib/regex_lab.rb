@@ -26,19 +26,19 @@ end
 
 def valid_phone_number?(phone)
   if phone.match(/[0-9]{10}/)
-    binding.pry
+    # binding.pry
     true
   elsif phone.match(/\A.(\d{3}).(\d{3}).(\d{4})\z/)
-    binding.pry
+    # binding.pry
     true
   elsif phone.match(/\A(\d{3})\s(\d{3})\s(\d{4})\z/)
-    binding.pry
+    # binding.pry
     true
   elsif phone.match(/\A.(\d{3}).(\d{7})\z/)
-    binding.pry
+    # binding.pry
     true
   else
-    binding.pry
+    # binding.pry
     false
   end
 end
