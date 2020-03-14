@@ -43,5 +43,5 @@ def valid_phone_number?(phone)
   end
 end
 
-valid_numbers = ["234 43 9978", "(800)IloveNY"]
+valid_numbers = ["(800)IloveNY"]
 valid_numbers.all? { |number| valid_phone_number?(number) }
